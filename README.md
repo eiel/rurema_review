@@ -8,4 +8,6 @@
 * まずは組み込み関数っぽく動くKernelのモジュールメソッドあたりを<br>
   [Kernel ModuleMethod](https://github.com/eiel/rurema_review/blob/master/Kernel_module_method/memo.md)
 * 二回目はすべてのObjectで使えるメソッドであるBasicObject<br>
-  [BasickObject InstanceMethod](https://github.com/eiel/rurema_review/blob/master/BasicObject_instance_method/)
+  [BasickObject InstanceMethod](https://github.com/eiel/rurema_review/blob/master/BasicObject_instance_method/index.md)
+* BasicObjectだけではすくないのでその他のObjectのインスタンスメソッドとなるKernelのインスタンスメソッド<br>
+  [Kernel InstanceMethod](https://github.com/eiel/rurema_review/blob/master/Kernel_instance_method/index.md)

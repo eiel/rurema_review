@@ -12,7 +12,7 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
 
 ## !
 
-[サンプルコード](src/!.rb)
+[サンプルコード](!.rb)
 
 * ! を true 返すような実装は可能だけど、非常に不自然になる
 * 否定した際に副作用を起こしたいときにオーバーライドすることになるらしい
@@ -35,20 +35,20 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
 
 ## __send__
 
-[サンプルコード](src/__send__.rb)
+[サンプルコード](__send__.rb)
 
 * メソッド名からメソッドを呼ぶのに利用できる
 
 ## equal?
 
-[サンプルコード](src/equal?.rb)
+[サンプルコード](equal?.rb)
 
 * 再定義すべきでないメソッド
 * 同一性の確認
 
 ## instance_eval
 
-[サンプルコード](src/instance_eval)
+[サンプルコード](instance_eval.rb)
 
 * インスタンスメソッドを定義するときと同等のスコープの状態でプログラムを評価できます。
 * 文字列でもブロックでも渡せる
@@ -67,7 +67,7 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
 
 ## method_missing
 
-[サンプルコード](src/method_missing.rb)
+[サンプルコード](method_missing.rb)
 
 * メソッドが実装されてなくてもなにかしたいならオーバーライドしよう
 * 呼ばれたメソッドがないときに呼ばれるメソッド
@@ -77,7 +77,7 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
 
 ## singleton_method_added
 
-[サンプルコード](src/singleton_method_added.rb)
+[サンプルコード](singleton_method_added.rb)
 
 * 特異メソッドが追加されたときに呼ばれる
 * うまく使ってる例を探したいところ
@@ -85,7 +85,7 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
 
 ## singleton_method_removed
 
-[サンプルコード](src/singleton_method_removed.rb)
+[サンプルコード](singleton_method_removed.rb)
 
 * Module#remove_methodで メソッドは削除できるそうな
 
