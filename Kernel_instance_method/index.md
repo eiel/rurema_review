@@ -34,10 +34,6 @@ Objectにincludeされるため、おおむね全てのオブジェクトで使�
 
 * 任意のメソッドが呼びだせます
 
-## _dump
-
-* シリアライズする際の内容を確認できるらしいが…うごかない
-
 ## class
 
 * オブジェクトのクラスを返す
@@ -57,7 +53,7 @@ Objectにincludeされるため、おおむね全てのオブジェクトで使�
 
 ## enum_for, to_enum
 
-[サンプルコード](enum_for)
+[サンプルコード](enum.rb)
 
 * Enumaratorのファクトリ。短い
 * self.enum_for(method, args) は Enumerator(self, method ,*args)と等価
@@ -66,7 +62,7 @@ Objectにincludeされるため、おおむね全てのオブジェクトで使�
 
 ## eql?
 
-[サンプルコード](eql?.rb)
+[サンプルコード](eql%3F.rb)
 
 * Hashのキーの同一性を確認するのに使われる模様
   * ただし hash が正しく実装されてることも重要のよう
@@ -255,4 +251,4 @@ Objectにincludeされるため、おおむね全てのオブジェクトで使�
 * initialize_clone, initialize_dup メソッドがあるがドキュメントがない
 * public_methodがあるがドキュメントがない
 * to_なんとかメソッドは結構未定義
-* turstはマジでなに？
+* trustはマジでなに？(セキュリティ系っぽい)

@@ -28,12 +28,12 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
   * 同値性
 * デフォルトでは equal? と同じ同一性で判定する
 
-## __id__
+## `__id__`
 
 * どのような整数が割り当てられるかは不定らしいけどFixnumクラスのインスタンスは現状一定値を返すらしい (x*2 + 1)
 * Object#object_id と同じ。
 
-## __send__
+## `__send__`
 
 [サンプルコード](__send__.rb)
 
@@ -41,7 +41,7 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
 
 ## equal?
 
-[サンプルコード](equal?.rb)
+[サンプルコード](equal%3F.rb)
 
 * 再定義すべきでないメソッド
 * 同一性の確認
@@ -72,7 +72,7 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
 * メソッドが実装されてなくてもなにかしたいならオーバーライドしよう
 * 呼ばれたメソッドがないときに呼ばれるメソッド
 * 動的にメソッドを作成した場合に。
-* 必要あれば respond_to? もオーバーライドしよう
+* 必要あれば `respond_to_missing?` もオーバーライドしよう
 
 
 ## singleton_method_added
@@ -92,11 +92,10 @@ http://rurema.clear-code.com/1.9.3/class/BasicObject.html
 ## singleton_method_undefined
 
 * 基本的にはremovedと同じ。
-* undef_methodされると、removodしてさらに少し処理をしているみたいです。
+* undef_methodされると、removedしてさらに少し処理をしているみたいです。
   * ソースはよんでない
 
 # きになったところ
 
 * ! に != へのリンクがあってもよいかも
-* instance_eval に instance_execのリンクがあってもよいかも
-* method_missingで respond_to?のところに respond_to_missing? もオーバーライドしろってかいてあるけど自動的に対応するんじゃない？
+* `instance_eval` に `instance_exec` のリンクがあってもよいかも
