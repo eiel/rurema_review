@@ -11,3 +11,6 @@
   [BasickObject InstanceMethod](https://github.com/eiel/rurema_review/blob/master/BasicObject_instance_method/index.md)
 * BasicObjectだけではすくないのでその他のObjectのインスタンスメソッドとなるKernelのインスタンスメソッド<br>
   [Kernel InstanceMethod](https://github.com/eiel/rurema_review/blob/master/Kernel_instance_method/index.md)
+
+* ちょっとメタな機能が多い Module クラス
+  [Module](https://github.com/eiel/rurema_review/bolb/master/Module/index.md)
