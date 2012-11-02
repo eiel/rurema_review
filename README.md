@@ -18,3 +18,5 @@
 * Moduleをやったので Class クラス<br>
   [Class](https://github.com/eiel/rurema_review/bolb/master/Module/index.md)
 
+* 範囲を表現する Rangeクラス<br>
+  [Range](https://github.com/eiel/rurema_review/bolb/master/Module/index.md)
