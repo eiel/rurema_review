@@ -12,5 +12,9 @@
 * BasicObjectだけではすくないのでその他のObjectのインスタンスメソッドとなるKernelのインスタンスメソッド<br>
   [Kernel InstanceMethod](https://github.com/eiel/rurema_review/blob/master/Kernel_instance_method/index.md)
 
-* ちょっとメタな機能が多い Module クラス
+* ちょっとメタな機能が多い Module クラス<br>
   [Module](https://github.com/eiel/rurema_review/bolb/master/Module/index.md)
+
+* Moduleをやったので Class クラス<br>
+  [Class](https://github.com/eiel/rurema_review/bolb/master/Module/index.md)
+
