@@ -38,7 +38,7 @@ Range は immutable 生成後に変更できない
 
 ## ===, include?, member?
 
-[サンプルコード]{include.rb}
+[サンプルコード](include.rb)
 
 * 値が範囲内かどうかを調べます
 
@@ -87,4 +87,3 @@ Range は immutable 生成後に変更できない
 # 気になった点
 
 * `equal?`の説明いらなような気がしなくもない。
-
