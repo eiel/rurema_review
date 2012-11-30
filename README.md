@@ -20,3 +20,6 @@
 
 * 範囲を表現する Rangeクラス<br>
   [Range](https://github.com/eiel/rurema_review/bolb/master/Module/index.md)
+
+* ハッシュテーブルや連想配列と呼ばれるデータ構造を表現する Hash クラス<br>
+  [Hash](https://github.com/eiel/rurema_review/bolb/master/Hash/index.md)
