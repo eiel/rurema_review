@@ -4,6 +4,5 @@
 
 # なんとなく気になって
 String === "hoge"              # => true
-{a: String} === {a: "hoge"}     # => true
+{a: String} === {a: "hoge"}     # => false
 {a: String} === {a: String}     # => true
-
