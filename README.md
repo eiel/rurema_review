@@ -27,3 +27,5 @@
 * なんとなくちょっと脱線。Fiber クラス<br>
   [Fiber](https://github.com/eiel/rurema_review/blob/master/Fiber/index.md)
 
+* 文字列となにが違うの？と言われちゃう Symbol クラス<br>
+  [Symbol](https://github.com/eiel/rurema_review/blob/master/Symbol/index.md)
